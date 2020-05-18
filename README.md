@@ -1,5 +1,9 @@
 # Problem with ts-jest - typings not updated
 
+Reported here:
+https://github.com/kulshekhar/ts-jest/issues/1122#issuecomment-629768108
+https://github.com/kulshekhar/ts-jest/issues/943#issuecomment-629768329
+
 Steps to reproduce:
  - run jest with watch `$ npm test -- --watch`
  - go into `src/add.test.ts` and edit the import from `add1` to `add2` in both import and where the function is used
